@@ -4,19 +4,19 @@
 (This file generated from the board:)
 (.../x0x-heart-power/x0x-heart-power.brd)
 (Current profile is .../pcbgcode.repo/profiles/mach.pp  )
-(This file generated 3/18/16 9:19 PM)
+(This file generated 3/30/16 10:36 PM)
 (Settings from pcb-machine.h)
 (spindle on time = 0.0000)
 (spindle speed = 20000.0000)
-(tool change at 0.0000  0.0000  3.0000  )
+(tool change at 0.0000  0.0000  1.5000  )
 (feed rate xy = F0     )
 (feed rate z  = F20    )
 (Z Axis Settings)
 (  High     Up        Down     Drill)
-(0.2500  	0.0500  	-0.0030 	-0.0730 )
+(0.2500  	0.0500  	-0.0035 	-0.0730 )
 (Settings from pcb-defaults.h)
-(isolate min = 0.0040)
-(isolate max = 0.0150)
+(isolate min = 0.0050)
+(isolate max = 0.0200)
 (isolate step = 0.0015)
 (Generated bottom outlines, bottom drill, )
 (Unit of measure: inch)
@@ -36,7 +36,7 @@ G00 X0.0000  Y0.0000
 M03
 G04 P0.000000
 M05
-G00 Z3.0000  
+G00 Z1.5000  
 M06 T01  ; 0.0320  
 G01 Z0.0000  F20    
 M06 
@@ -62,7 +62,7 @@ G82 X-2.3500 Y0.3100
 G82 X-2.5500 Y0.3000  
 G82 X-2.5500 Y0.4000  
 M05
-G00 Z3.0000  
+G00 Z1.5000  
 G00 X0.0000  Y0.0000  
 M06 T02  ; 0.0400  
 G01 Z0.0000  F20    
@@ -109,7 +109,7 @@ G82 X-3.4000 Y0.6500
 G82 X-3.4000 Y0.5500  
 G82 X-3.4000 Y0.4500  
 M05
-G00 Z3.0000  
+G00 Z1.5000  
 G00 X0.0000  Y0.0000  
 M06 T03  ; 0.0440  
 G01 Z0.0000  F20    
@@ -145,7 +145,7 @@ G82 X-1.7500 Y0.2500
 G82 X-1.9500 Y0.1000  
 G82 X-2.1500 Y0.1000  
 M05
-G00 Z3.0000  
+G00 Z1.5000  
 G00 X0.0000  Y0.0000  
 M06 T04  ; 0.0669  
 G01 Z0.0000  F20    
@@ -156,7 +156,7 @@ G04 P0.000000
 G82 X-0.2500 Y1.1720  Z-0.0730 F20    R0.0500  P0.010000
 G82 X-0.2500 Y1.3280  
 M05
-G00 Z3.0000  
+G00 Z1.5000  
 G00 X0.0000  Y0.0000  
 M06 T05  ; 0.1300  
 G01 Z0.0000  F20    
